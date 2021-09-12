@@ -1,0 +1,630 @@
+*
+{
+     box-sizing: border-box;
+}
+body {
+
+    margin:0;
+    padding:0;
+}
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.nav2{
+  background-color: black;
+  justify-content:space-around;
+}
+.brand-title {
+
+    font-size:1.5rem ;
+    margin: .5rem;
+
+}
+ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+}
+
+ li a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    display: block;
+
+}
+ li:hover {
+    background-color: #555;
+}
+
+
+
+
+.layout
+
+{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 5%;
+}
+
+.logo{
+    position: relative;
+    top: 11;
+    left: 0;
+}
+.tell{
+    position: absolute;
+    top: 20;
+    left: 1680;
+    width: 200;
+}
+.layout04{
+    position:absolute
+
+
+}
+.mascara{
+    position: absolute;
+    top: 50;
+    left: 300;
+}
+.layout05{
+    position: absolute;
+    top: 500;           
+}
+.mascara02{
+    position: absolute;
+    top: 550;
+    left: 40;
+
+}
+.linha01{
+    position: absolute;
+    top: 70;
+}
+.linha02{
+    position: absolute;
+    top: 190;
+}
+    
+.eslogan{
+    position: absolute;
+    top: 50;
+    left: 200;
+    
+}
+.layout07{
+    position: relative;
+    top: 1049px;
+    width: 100%;
+}
+.instagram{
+    position: absolute;
+    top: 245;
+    left: 1800;
+    background-color: black;
+    border: none;
+}
+.logo01{
+        top: 267px;
+        left: 550;
+        color: azure;
+        font-size: 45px;
+        font-style: italic;
+        margin-left: 33%;
+        margin-top: 1%;
+    }
+.home{
+    position: absolute;
+    top: 165;
+    left: 1500;
+}
+.sobrenos{
+    position: absolute;
+    top: 160;
+    left: 1750;
+}
+.contato{
+    position: absolute;
+    top: 165;
+    left: 1620;
+}
+
+    
+
+
+.jh{
+position: absolute;
+top: 98;
+left: 40;
+}
+.linha03{
+    position: absolute;
+    top: 520;
+}
+.linha04{
+    position: absolute;
+    top: 1029;
+
+}
+.pintura{
+    position: absolute;
+    top: 50;
+    left: 50;
+}
+.eletrica{
+    position: absolute;
+    top: 50;
+    left: 300;
+}
+.constru{ 
+    position: absolute;
+    top: 50 ;
+    left: 550;
+}
+    
+
+
+.drywall {
+
+    position: absolute;
+    top:  50;
+    left: 1100;
+    color: azure;
+    font-size: 45px;
+    /* top: 230; */
+    /* left: 800;   */
+    /* color: azure; */
+    /* font-size: 75px; */
+    /* font-style: italic; */
+}
+.impermeabilizaçao{
+    position: absolute;
+    top: 50;
+    left: 1400;
+}
+.textpintura{
+    position: absolute;
+    top: 150;
+    left: 30;
+    color: azure;
+    font-size: 20px;
+    
+}
+.texteletrica{
+    position: absolute;
+    top: 130;
+    left: 300;
+    color: azure;
+    font-size: 20px;
+    
+    
+}
+.textconstruçao{
+    position: absolute;
+    top: 130;
+    left: 640;
+    color: azure;
+    font-size: 20px;
+}
+.textdrywall{
+    position: absolute;
+    top: 130;
+    left: 1100;
+    color: azure;
+    font-size: 20px;
+}
+.textimper{
+    position: absolute;
+    top: 130;
+    left: 1400;
+    color: azure;
+    font-size: 20px;
+}
+.logo002{
+    top: 267px;
+    left: 550;
+    color: azure;
+    font-size: 45px;
+    font-style: italic;
+    margin-left: 33%;
+    margin-top: 1%;
+}
+.logo013{
+    top: 267px;
+    left: 550;
+    color: azure;
+    font-size: 45px;
+    font-style: italic;
+    margin-left: 33%;
+    margin-top: 1%;
+}
+.contatos{
+    position: absolute;
+    top: 60;
+    left: 50;
+}
+.contatos02{
+    position: absolute;
+    color: azure;
+    font-size: 60px;
+    top: 28;
+    left: 420;
+    font-style: italic;
+}
+.icon{
+    
+    position: absolute;
+    top:10;
+    left: 200;
+    
+    
+}
+.logo014{
+    position:absolute;
+    top: 230;
+    left: 800;  
+    color: azure;
+    font-size: 75px;
+    font-style: italic;
+}
+.contatos022{
+    position: absolute;
+    color: azure;
+    font-size: 40px;
+    top: 28;
+    left: 300;
+    font-style: italic;
+}
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+html, body {
+    height: 100%;
+}
+.mascara0002{
+    width: 100%;
+}
+li{
+
+    list-style: none;
+    padding: none;
+  
+  
+    
+  }
+ 
+@media screen and (min-width:320px) and (max-width:568px) {
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: white;
+    }
+    /*.button01{
+
+        position: absolute;
+        top: 9%;
+        left: 199%;
+        font-size: 67px;
+        background-color: transparent;
+        border: none;
+        display: flex;
+      
+       
+    }*/
+    .mascara{
+        left: 17px;
+         width: 100%;
+         height: 89%;
+    }
+    .layout{
+        width: 396%;
+    }
+    .layout02{
+        width: 396%;
+    }
+    .layouttt{
+        width: 100%;
+    }
+    .layout002
+    {
+        width: 100%;
+    }
+    .layout03{
+        width: 396%;
+
+    }
+    .layout003{
+        width: 100%;
+    }
+    .eslogan{
+        position: absolute;
+        left: 1%;
+        WIDTH: 94%;
+        TOP: 20%;
+         
+    }
+    .eslogan001{
+        width: 100%;
+        
+    }
+    .mascara0001{
+        width: 100%;
+        height: 100%;
+    }
+    .mascara02{
+        position: absolute;
+        height: 2894px;
+        top: 103%;
+    }
+    .mascara002{
+        width: 100%;
+        height: 100%;
+    }
+    .mascara002{
+        width:100%;
+    }
+    .linha01{
+        width: 396%;
+        top: 7%;
+    }
+    .linha001{
+        width: 100%;
+    }
+    .linha02{
+        width:396%;
+    }
+    .linha002{
+        width: 100%;
+    }
+    .linha03{
+        width: 99%;
+        TOP: 99%;
+        height: 10;
+    }
+    .linha003{
+        width: 100%;
+        height: 100%;
+    }
+    .linha04{
+        top: 3907px;
+        height: 10;
+    }
+    .linha004{
+        width: 100%;
+        height: 100%;
+    }
+    .layout04{
+        width: 396%;
+        height:173%;;
+    }
+    .layout005{
+        width: 100%;
+        height: 100%;
+    }
+    .layout05{
+        position: absolute;
+        height: 2969px;
+        top: 97%;
+
+    }
+    .layoutt{
+        height: 100%;
+        width: 100%;
+    }
+
+    .layout07 {
+        position: relative;
+        width: 396%;
+        top: 3920px;
+    }
+    
+    .L007
+    {
+        width: 100%;
+    }
+
+    .home{
+        position: absolute;
+        top: 165;
+        left: 1500;
+    }
+    .sobrenos{
+        position: absolute;
+        top: 160;
+        left: 1750;
+    }
+    .contato{
+        position: absolute;
+        top: 165;
+        left: 1620;
+    }
+    .home{
+        position: absolute;
+        top: 105px;
+        left: 781px;
+    }
+    .sobrenos{
+        position: absolute;
+        top: 103px;
+        left: 1115px;
+    }
+    .contato{
+        position: absolute;
+        top: 105px;
+        left: 916px;
+    }
+    /*.whats {
+        position: absolute;
+        top: 157px;
+        left: 913px;
+        background-color: black;
+        border: none;
+        display: none;
+    }*/
+    .instagram {
+        position: absolute;
+        top: 149px;
+        left: 1117px;
+        background-color: black;
+        border: none;
+    
+    }
+    .insta002{
+        width: 100%;
+    }
+    .whatsss {
+        position: absolute;
+        top: -194px;
+        left: 40%;
+        background-color: transparent;
+        border: none;
+        width: 20%;
+        height: 10%;
+    }
+    .whats04{
+        width: 100%;
+    }
+    .tell{
+        position: absolute;
+        top: 20;
+        left: 1041px;
+        width: 200;
+    }
+    .impermeabilizaçao {
+        position: absolute;
+        top: 50;
+        left: 441px;
+    }
+    .textimper{
+        position: absolute;
+        top: 1314px;
+        left: 35px;
+        color: azure;
+        width: 477px;
+        font-size: 64px
+    }
+    .textpintura{
+        position: absolute;
+        top: 242px;
+        left: 30;
+        color: azure;
+        font-size: 55px;
+        width: 500;
+        
+    }
+    .texteletrica{
+        position: absolute;
+        top: 185px;
+        left: 646px;
+        color: azure;
+        font-size: 55px;
+        width: 500;
+        
+        
+    }
+
+    .textconstruçao{
+        position: absolute;
+        top: 877px;
+        left: 640;
+        color: azure;
+        font-size: 55px
+    }
+    .textdrywall {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        color: azure;
+        font-size: 62px;
+    }
+    .pintura {
+        position: absolute;
+        top: 5%;
+        width: 27%;
+        height: 3%;
+        left: 50;
+    }
+
+    .pintura001{
+        width: 100%;
+    }
+    .eletrica {
+        position: absolute;
+        top: 5%;
+        left: 52%;
+        width: 27%;
+        HEIGHT: 3%;
+    }
+    .eletrica001{
+        width:100%;
+    }
+    .constru {
+        position: absolute;
+        top: 29%;
+        left: 47%;
+        WIDTH: 49%;
+        HEIGHT: 3%;
+    }
+    .constru001{
+
+        width:100%;
+    }
+    .drywall {
+        position: absolute;
+        top: 60%;
+        left: 64%;
+        width: 32%;
+        height: 4%;
+        color: azure;
+        font-size: 110px;
+    }
+    .impermeabilizaçao {
+        position: absolute;
+        top: 45%;
+        left: 4%;
+        width: 36%;
+        height: 3%;
+    }
+    .imper0001{
+        width:100%;
+    }
+    .jh{    
+        top: 9%;
+        
+    }
+    .icon{
+        top: -7%;
+        left: 41%;
+    }
+     
+
+       
+
+
+
+
+
+
+}
+
+
+
